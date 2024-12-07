@@ -25,10 +25,10 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className={classes.end}>
-                    <a href="https://github.com/priyanshuthakar24"><i class="fa-brands fa-square-github" style={{ color: '#253f4b' }}></i></a>
-                    <a href="https://www.linkedin.com/in/priyanshu-thakar-3b1547274"><i class="fa-brands fa-linkedin" style={{ color: '#253f4b' }}></i></a>
+                    <a href="https://github.com/Jayrajsinh45"><i class="fa-brands fa-square-github" style={{ color: '#253f4b' }}></i></a>
+                    <a href="13:51
+                        https://www.linkedin.com/in/jayrajsinh-barad"><i class="fa-brands fa-linkedin" style={{ color: '#253f4b' }}></i></a>
                     <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlHkHwFZJFMMpdQsRXPjXZpDHFgHQGSCrFnwSzBnQtGRrTjhvWCWlbQbqbzcBGnJjwnvV"><i class="fa-solid fa-envelope" style={{ color: '#253f4b' }}></i></a>
-
                     <a href="https://github.com/priyanshuthakar24"><i class="fa-brands fa-square-instagram" style={{ color: '#253f4b' }}></i></a>
                     {Resume.map(resume =>
                         <a href={resume.resume_link} download='Priyanshu_Thakar_Resume' id={classes.resume} ><i class="fa-solid fa-file-user" style={{ color: '#253f4b'}}></i></a>

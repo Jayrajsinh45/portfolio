@@ -7,7 +7,7 @@ const Project = () => {
             <div className={classes.heading}>
                 <h1>PROJECT</h1>
             </div>
-            <div className={classes.projectinfo}>
+            {/* <div className={classes.projectinfo}>
                 {Projects.map((project, index) => {
                     if (index >= 6) return <></>
                     return <div className={classes.box}>
@@ -24,7 +24,7 @@ const Project = () => {
                         </div>
                     </div>
                 })}
-            </div>
+            </div> */}
             {Projects.length >= 6 && <button>View All</button>}
         </div>
     )
